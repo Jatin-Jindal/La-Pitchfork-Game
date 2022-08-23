@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] float speed = 1;
+    [SerializeField] float speed = 3;
     Vector3 direction;
     Rigidbody2D rb;
     void Start()
